@@ -12,6 +12,15 @@ body{
   background-color: #fff;
 }
 
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover{
+  transition: opacity 0.8;
+}
+
+
 .sitenav-list{
   list-style: none;
 }
@@ -24,6 +33,15 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.3s ease,
+  opacity 0.4s ease ;
+}
+
+.sitenav-link:hover{
+  color: #ff7500;
+}
+.sitenav-link:active{
+  opacity: 0.6;
 }
 
 .main-link{
@@ -32,6 +50,15 @@ body{
   line-height: 15px;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover{
+  opacity: 0.8;
+}
+
+.main-link:active{
+  opacity: 0.6;
 }
 
 .hero{
@@ -111,6 +138,23 @@ body{
   background-color:#f8f8f8;
 }
 
+.site-footer-social{
+  display: flex;
+  align-items: center;
+}
+
+.site-footer-social a{
+  color: #252420;
+}
+
+.site-footer-social a:hover{
+  color: #ff7500;
+}
+
+.site-footer-social a:active{
+ opacity: 0.6;
+}
+
 .site-footer ul{
   list-style: none;
 }
@@ -123,9 +167,18 @@ body{
   text-decoration: none;
   color: #252420;
 }
+<<<<<<< HEAD
 .site-footer-links a:hover{
   color: #ff7500;
 }
 .site-footer-links a:active{
+=======
+
+.site-footer-links a:hover{
+  color: #ff7500;
+}
+
+.site-footer-links a:focus{
+>>>>>>> 2d50c9153ad44c9e7e3090e34e10607044327b2a
   opacity: 0.6;
 }
