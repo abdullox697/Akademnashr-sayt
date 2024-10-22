@@ -9,6 +9,12 @@ body{
 }
 
 .site-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500 ;
   background-color: #fff;
 }
 
@@ -22,6 +28,9 @@ body{
 
 
 .sitenav-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
   list-style: none;
 }
 
@@ -45,8 +54,12 @@ body{
 }
 
 .main-link{
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 4px;
   background-color: #ff7500;
   font-size: 13px;
+  font-weight: bold;
   line-height: 15px;
   color: #fff;
   text-decoration: none;
@@ -62,6 +75,11 @@ body{
 }
 
 .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
 }
@@ -70,9 +88,10 @@ body{
   width: 390px;
 }
 
-.hero-line{
+.orange-line{
   width: 80px;
   height: 3px;
+  border: 0;
   background-color: #ff7500;
 }
 
@@ -86,6 +105,12 @@ body{
 .hero-img{
   width: 510px;
   height: 510px;
+  border-radius: 8px;
+}
+
+.fuatures{
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .fuatures-heading{
@@ -96,11 +121,20 @@ body{
 .fuature{
   width: 340px;
 }
+.fuatures-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
 
 .fuature-icon-wrapper{
   width: 100px;
   height: 100px;
-  background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fuature-title{
@@ -110,7 +144,10 @@ body{
 }
 
 .promo{
+  padding-top: 120px;
+  padding-bottom: 160px;
   background-color: #252420;
+  border-radius: 12px;
   color: #fff;
 }
 
@@ -132,15 +169,19 @@ body{
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 .site_footer{
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color:#f8f8f8;
 }
 
 .site-footer-social{
   display: flex;
   align-items: center;
+  padding: 0px;
 }
 
 .site-footer-social a{
@@ -152,7 +193,7 @@ body{
 }
 
 .site-footer-social a:active{
- opacity: 0.6;
+  opacity: 0.6;
 }
 
 .site-footer ul{
@@ -161,24 +202,24 @@ body{
 
 .site-footer-divider{
   height: 2px;
+  border: 0px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-links a{
   text-decoration: none;
   color: #252420;
 }
-<<<<<<< HEAD
 .site-footer-links a:hover{
   color: #ff7500;
 }
-.site-footer-links a:active{
-=======
+/* .site-footer-links a:active{
+
+} */
 
 .site-footer-links a:hover{
   color: #ff7500;
 }
 
 .site-footer-links a:focus{
->>>>>>> 2d50c9153ad44c9e7e3090e34e10607044327b2a
   opacity: 0.6;
 }
