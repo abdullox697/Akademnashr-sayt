@@ -25,6 +25,12 @@ body{
 .logo-link:hover{
   transition: opacity 0.8;
 }
+.logo-link:active{
+  opacity: 0.6;
+}
+.logo-link img{
+  display: block;
+}
 
 .sitenav-list{
   display: flex;
